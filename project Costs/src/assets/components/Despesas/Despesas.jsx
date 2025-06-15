@@ -19,18 +19,18 @@ const data = [
 
 export const Despesas = () => {
   return (
-    <section className="w-full">
+    <section className="p-8">
       
-      <h2 className="font-bold text-[22px] leading-[28px] text-[#121417] mb-1">
+      <h2 className="font-bold text-[22px] leading-[28px] text-[#121417] mb-1 font-manrope">
         Despesas por categoria
       </h2>
-      <p className="text-[#121417] font-medium text-base leading-[24px]">
+      <p className="text-[#121417] font-medium text-base leading-[24px] font-poppins">
         Despesas
       </p>
       <p className="text-[#121417] font-bold text-[32px] leading-[40px] mb-2">
         R$ 3.500,00
       </p>
-      <p className="text-sm text-green-600 mb-4">
+      <p className="text-sm text-green-600 mb-4 font-manrope">
         Este mês <span className="font-bold">+2%</span>
       </p>
 

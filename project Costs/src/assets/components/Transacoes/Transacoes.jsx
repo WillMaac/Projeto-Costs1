@@ -35,24 +35,24 @@ const transacoes = [
 
 export const Transacoes = () => {
   return (
-    <section className="w-full mt-10">
+    <section className="p-8">
       <h2 className="font-bold text-[22px] leading-[28px] text-[#121417] mb-4">
         Transações recentes
       </h2>
-      <div className="overflow-x-auto rounded-lg border border-gray-200 min-w-[910px] max-w-[926px] mx-auto">
+      <div className="overflow-x-auto rounded-lg border border-gray-200 min-w-[910px] max-w-[926px]  mx-auto">
         <table className="min-w-full text-sm">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-4 py-2 text-left font-medium text-gray-500">
+              <th className="px-4 py-4 text-left font-medium text-gray-500">
                 Data
               </th>
-              <th className="px-4 py-2 text-left font-medium text-gray-500">
+              <th className="px-4 py-4 text-left font-medium text-gray-500">
                 Descrição
               </th>
-              <th className="px-4 py-2 text-left font-medium text-gray-500">
+              <th className="px-4 py-4 text-left font-medium text-gray-500">
                 Categoria
               </th>
-              <th className="px-4 py-2 text-right font-medium text-gray-500">
+              <th className="px-4 py-4 text-right font-medium text-gray-500">
                 Valor
               </th>
             </tr>
@@ -63,16 +63,16 @@ export const Transacoes = () => {
                 key={idx}
                 className="border-t border-gray-100 hover:bg-gray-50 transition"
               >
-                <td className="px-4 py-2 text-gray-700">{transacao.data}</td>
+                <td className="px-5 py-5 text-gray-700">{transacao.data}</td>
                 <td className="px-4 py-2 text-gray-700">
                   {transacao.descricao}
                 </td>
-                <td className="px-4 py-2">
+                <td className="px-5 py-5">
                   <span className="inline-block bg-gray-100 text-gray-700 text-xs font-medium px-2 py-1 rounded-full">
                     {transacao.categoria}
                   </span>
                 </td>
-                <td className="px-4 py-2 text-right text-gray-700">
+                <td className="px-5 py-5 text-right text-gray-700">
                   {transacao.valor}
                 </td>
               </tr>
