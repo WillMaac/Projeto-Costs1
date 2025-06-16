@@ -1,4 +1,5 @@
 import "./App.css";
+import { AddDespesas } from "./assets/components/AddDespesas/AddDespesas";
 import { Despesas } from "./assets/components/Despesas/Despesas";
 import { Home } from "./assets/components/Home/Home";
 import Navbar from "./assets/components/NavBar/NavBar";
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Despesas />
       <Transacoes />
+      <AddDespesas/>
     </div>
   );
 }
