@@ -5,6 +5,7 @@ import { AdicionarRenda } from "./assets/components/Adicionar renda/Adicionar re
 import { Despesas } from "./assets/components/Despesas/Despesas";
 import { Home } from "./assets/components/Home/Home";
 import Navbar from "./assets/components/NavBar/NavBar";
+import { Sidebar } from "./assets/components/Sidebar/Sidebar";
 
 import { Transacoes } from "./assets/components/Transacoes/Transacoes";
 
@@ -17,6 +18,7 @@ function App() {
       <Transacoes />
       <AddDespesas/>
       <AdicionarRenda/>
+      <Sidebar/>
     </div>
   );
 }
