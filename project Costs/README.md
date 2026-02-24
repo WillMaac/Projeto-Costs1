@@ -1,12 +1,55 @@
-# React + Vite
+<h1 align="center">💰 Costs – Gerenciador de Projetos</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSON_Server-API-lightgrey?style=for-the-badge" />
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+Aplicação web para gerenciamento de projetos e controle de orçamento, desenvolvida com React.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Sobre o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O **Costs** é uma aplicação web para criação e gerenciamento de projetos, permitindo controlar orçamento, adicionar serviços e acompanhar os custos de cada projeto.
+
+O objetivo principal foi praticar:
+
+- Componentização com React
+- Manipulação de estado
+- Consumo de API simulada
+- Organização estrutural de aplicações SPA
+- Boas práticas de front-end
+
+A aplicação permite criar projetos com orçamento definido e adicionar serviços a cada projeto, garantindo que o custo total não ultrapasse o valor planejado.
+
+---
+
+## 🚀 Funcionalidades
+
+✔️ Criar novos projetos  
+✔️ Definir orçamento inicial  
+✔️ Editar projetos  
+✔️ Remover projetos  
+✔️ Adicionar serviços a cada projeto  
+✔️ Validação de orçamento  
+✔️ Integração com API simulada (JSON Server)  
+✔️ Navegação entre páginas com React Router  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20"/> React | Construção da interface baseada em componentes |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20"/> JavaScript (ES6+) | Lógica da aplicação |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20"/> CSS3 | Estilização da interface |
+| 🌐 JSON Server | Simulação de API REST para persistência de dados |
+| 🔀 React Router | Navegação entre páginas |
+
+---
